@@ -1,6 +1,6 @@
 # 🦕 DINOCIAL - RPG Social Platform
 
-![DINOCIAL Logo](./public/dinocial12.png)
+![DINOCIAL Logo](./rpg-social/public/dinocial12.png)
 
 **DINOCIAL** (RPG Social), geleneksel sosyal medya ile RPG oyun mekaniğini birleştiren yenilikçi bir Next.js platformudur. Kullanıcılar seviye atlayarak, görevler tamamlayarak, guild'lere katılarak ve arkadaşlarıyla etkileşim kurarak sosyal bir RPG deneyimi yaşarlar.
 

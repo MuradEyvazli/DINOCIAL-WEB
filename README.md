@@ -32,20 +32,20 @@
 ## 📱 Özellikler
 
 ### 🔐 Güvenli Kimlik Doğrulama
-![Login Screen](./public/proje-fotograflari/login.png)
+![Login Screen](./rpg-social/public/proje-fotograflari/login.png)
 - JWT tabanlı güvenli giriş sistemi
 - Google ve GitHub ile sosyal giriş
 - Şifre sıfırlama ve güvenlik özellikleri
 
 ### 🏠 Ana Sayfa & Dashboard
-![Home Page](./public/proje-fotograflari/home-page.png)
+![Home Page](./rpg-social/public/proje-fotograflari/home-page.png)
 ![Home Page 2](./public/proje-fotograflari/home-page2.png)
 - Zarif ve modern tasarım
 - Responsive arayüz
 - Dinozor temalı görsel kimlik
 
 ### 📊 Kişisel Dashboard
-![Dashboard](./public/proje-fotograflari/dashboard.png)
+![Dashboard](./rpg-social/public/proje-fotograflari/dashboard.png)
 - **Seviye İlerlemesi**: Görsel XP çubukları
 - **Hikaye Paylaşımı**: Stories özelliği
 - **Arkadaş Sistemi**: Takip et/takip edilme
@@ -53,7 +53,7 @@
 - **Kişisel İstatistikler**: Toplam XP, rozetler
 
 ### 🎯 Görev Merkezi
-![Görevler](./public/proje-fotograflari/gorevler.png)
+![Görevler](./rpg-social/public/proje-fotograflari/gorevler.png)
 - **Aktif Görevler**: Mevcut görev durumu
 - **Tamamlanan Görevler**: Başarı geçmişi
 - **Günlük Görevler**: 24s odda sıfırlanan görevler
@@ -61,7 +61,7 @@
 - **İlerleme Çubukları**: Görsel görev takibi
 
 ### 🏰 Guild Sistemi
-![Guild'lar](./public/proje-fotograflari/guidlar.png)
+![Guild'lar](./rpg-social/public/proje-fotograflari/guidlar.png)
 - **3 Aktif Guild**: Farklı temalı loncalar
 - **Üye Sayısı**: Guild popülaritesi
 - **XP Bonusları**: %15-25 arası XP artırımı
@@ -69,7 +69,7 @@
 - **Katılım Butonu**: Kolay guild katılımı
 
 ### 🏆 Liderlik Tablosu
-![Liderlik](./public/proje-fotograflari/liderlik.png)
+![Liderlik](./rpg-social/public/proje-fotograflari/liderlik.png)
 - **Top 3 Liderler**: Şampiyon, 2. ve 3. sıra
 - **Seviye Tabanlı Sıralama**: Deneyim puanı sıralaması
 - **Karakter Rozetleri**: Farklı sınıf göstergeleri
@@ -77,14 +77,14 @@
 - **Zaman Filtreleri**: Günlük/haftalık/aylık sıralamalar
 
 ### 🗺️ Dünya Haritası
-![Map](./public/proje-fotograflari/map.png)
+![Map](./rpg-social/public/proje-fotograflari/map.png)
 - **Bölge Sistemi**: Farklı seviyelerde açılan alanlar
 - **Seviye Kapıları**: Lv.5, Lv.9, Lv.10 gereksinimleri
 - **Keşif Sistemi**: Yeni bölgeleri keşfetme
 - **Görsel Harita**: Interactive bölge seçimi
 
 ### 💬 Gerçek Zamanlı Mesajlaşma
-![Mesajlar](./public/proje-fotograflari/messaj-kismi.png)
+![Mesajlar](./rpg-social/public/proje-fotograflari/messaj-kismi.png)
 - **Socket.IO Entegrasyonu**: Anlık mesajlaşma
 - **Emoji Desteği**: Tam emoji paketi
 - **Dosya Paylaşımı**: Resim, video, döküman
@@ -92,26 +92,26 @@
 - **Online Durumu**: Kullanıcı aktiflik durumu
 
 ### 👤 Profil Yönetimi
-![Profile 1](./public/proje-fotograflari/profile-1.png)
+![Profile 1](./rpg-social/public/proje-fotograflari/profile-1.png)
 - **Karakter Profili**: Seviye, XP, rozetler
 - **İstatistikler**: Gönderiler, görevler, başarımlar
 - **Avatar Yönetimi**: Cloudinary entegrasyonu
 - **Deneyim Puanı**: 595/400 XP görsel takibi
 
-![Profile 2](./public/proje-fotograflari/profile-2.png)
+![Profile 2](./rpg-social/public/proje-fotograflari/profile-2.png)
 - **Özel Yetenekler**: Hızlı adaptasyon, yaratıcı çözümler
 - **Karakter İstatistikleri**: Detaylı performans metrikleri
 - **Uzmanlık Seviyeleri**: %75-90 arası başarı oranları
 - **Son Aktiviteler**: Güncel eylem geçmişi
 
-![Profile Preview](./public/proje-fotograflari/profile-onizleme.png)
+![Profile Preview](./rpg-social/public/proje-fotograflari/profile-onizleme.png)
 - **Hızlı Önizleme**: Modal popup profil
 - **Temel Bilgiler**: Seviye, takipçi, başarım
 - **Hızlı Etkileşim**: Profil düzenleme butonu
 - **Minimal Tasarım**: Temiz ve kullanıcı dostu
 
 ### ⚙️ Ayarlar Sayfası
-![Ayarlar](./public/proje-fotograflari/ayarlar.png)
+![Ayarlar](./rpg-social/public/proje-fotograflari/ayarlar.png)
 - **Profil Ayarları**: Kişisel bilgi yönetimi
 - **Karakter Sınıfı**: 6 farklı sınıf seçimi
 - **Gizlilik Kontrolü**: Profil görünürlük ayarları
@@ -119,7 +119,7 @@
 - **Hesap Güvenliği**: Şifre ve güvenlik ayarları
 
 ### 🔐 NEXUS Admin Panel
-![Admin Panel](./public/proje-fotograflari/admin.png)
+![Admin Panel](./rpg-social/public/proje-fotograflari/admin.png)
 - **Quantum Security Interface**: Gelişmiş güvenlik sistemi
 - **NEXUS Anahtarı**: Admin erişim kontrolü
 - **Sistem İzleme**: Kapsamlı platform yönetimi
@@ -236,22 +236,11 @@ npm start
 - [ ] **Advanced Analytics**: Deep insights
 - [ ] **API Ecosystem**: Third-party integrations
 
-## 📞 İletişim
 
-- **Developer**: [@murad](https://github.com/murad)
-- **Project**: [RPG Social](https://github.com/murad/rpg-social)
-- **Demo**: [Live Demo](https://rpg-social.vercel.app)
-- **Docs**: [Documentation](./CLAUDE.md)
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasına bakın.
-
----
 
 **DINOCIAL** - *Sosyal medyanın efsanevi hali* 🦕✨
 
 *Geliştirici: Murad Eyvazli*  
 *Teknoloji: Next.js, Socket.IO, MongoDB*  
 *Tema: RPG + Social Media*  
-*Yıl: 2024*
+*Yıl: 2025*

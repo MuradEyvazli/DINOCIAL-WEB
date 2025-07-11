@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block access to API routes
+Disallow: /api/
+
+# Block access to uploads directory for privacy
+Disallow: /uploads/
+
+# Block access to admin/nexus routes
+Disallow: /nexus/
+
+Sitemap: https://yourdomain.com/sitemap.xml

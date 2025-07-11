@@ -1,0 +1,12 @@
+curl_cffi[all]
+requests[all]
+pysocks[all]
+bs4[all]
+certifi
+pyqt6[all]
+colorama[all]
+faker
+cloudscraper
+orjson
+wrapper_tls_requests
+tqdm

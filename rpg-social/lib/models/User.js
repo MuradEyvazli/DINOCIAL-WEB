@@ -203,8 +203,7 @@ const userSchema = new mongoose.Schema({
   // Cloudinary spesifik alanlar
   cloudinaryPublicId: {
     type: String, // Cloudinary'daki public_id
-    default: null,
-    index: true // Hızlı silme işlemleri için
+    default: null
   },
   
   // Farklı boyutlarda avatar URL'leri
@@ -229,8 +228,7 @@ const userSchema = new mongoose.Schema({
   nexusProfile: {
     quantumHash: {
       type: String,
-      default: null,
-      index: true
+      default: null
     },
     lastAccess: {
       type: Date,
@@ -255,8 +253,7 @@ const userSchema = new mongoose.Schema({
   role: {
     type: String,
     enum: ['user', 'moderator', 'admin', 'super_admin'],
-    default: 'user',
-    index: true
+    default: 'user'
   },
 
   // Moderation Info
@@ -776,16 +773,15 @@ userSchema.methods.removeAvatar = function() {
   this.markModified('avatarMetadata');
 };
 
-// İNDEXLER
-userSchema.index({ email: 1 });
-userSchema.index({ username: 1 });
+// İNDEXLER (unique: true olan fieldler için tekrar index tanımlamaya gerek yok)
 userSchema.index({ cloudinaryPublicId: 1 });
-userSchema.index({ level: -1 });
-userSchema.index({ xp: -1 });
+userSchema.index({ level: -1, xp: -1 }); // Compound index for leaderboard
 userSchema.index({ 'preferences.privacy.profileVisibility': 1 });
 userSchema.index({ isActive: 1 });
 userSchema.index({ lastActiveAt: -1 });
 userSchema.index({ createdAt: -1 });
+userSchema.index({ role: 1 });
+userSchema.index({ 'nexusProfile.quantumHash': 1 });
 
 // Model'i export et
 const User = mongoose.models.User || mongoose.model('User', userSchema);

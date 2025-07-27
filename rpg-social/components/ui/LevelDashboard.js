@@ -254,7 +254,7 @@ export default function LevelDashboard({ userId = null, compact = false }) {
             className="bg-gray-50 rounded-lg p-4 border border-gray-200"
           >
             <p className="text-gray-700 italic text-center text-sm">
-              "{currentLevel.quote}"
+              &quot;{currentLevel.quote}&quot;
             </p>
           </motion.div>
         )}

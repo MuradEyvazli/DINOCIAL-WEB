@@ -481,7 +481,7 @@ const AvatarUpload = ({ user, className = '', size = 'large' }) => {
                         style={{ width: `${currentProgress}%` }}
                       />
                     </div>
-                    <p className="text-sm text-gray-400 mt-2">Cloudinary'a yükleniyor... {currentProgress}%</p>
+                    <p className="text-sm text-gray-400 mt-2">Cloudinary&apos;a yükleniyor... {currentProgress}%</p>
                   </div>
                 )}
 
@@ -513,7 +513,7 @@ const AvatarUpload = ({ user, className = '', size = 'large' }) => {
                     ) : (
                       <>
                         <Upload className="w-4 h-4" />
-                        <span>Cloudinary'a Yükle</span>
+                        <span>Cloudinary&apos;a Yükle</span>
                       </>
                     )}
                   </button>

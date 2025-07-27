@@ -312,7 +312,7 @@ export default function LandingPage() {
               
               <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-4xl mx-auto leading-relaxed">
                 Gerçek RPG mekaniği ile sosyal medyayı birleştiren benzersiz platform. 
-                <span className="text-gradient-static font-semibold"> Karakterini oluştur, guild'ları keşfet ve efsaneni yaz.</span>
+                <span className="text-gradient-static font-semibold"> Karakterini oluştur, guild&apos;ları keşfet ve efsaneni yaz.</span>
               </p>
               
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -519,7 +519,7 @@ export default function LandingPage() {
                 Güçlü <span className="text-gradient-static">Topluluk</span>
               </h2>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-                50.000+ kahraman arasında yerini al, guild'lar kur ve efsanevi dostluklar edin
+                50.000+ kahraman arasında yerini al, guild&apos;lar kur ve efsanevi dostluklar edin
               </p>
             </motion.div>
             

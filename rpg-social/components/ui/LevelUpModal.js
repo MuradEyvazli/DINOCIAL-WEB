@@ -152,7 +152,7 @@ export default function LevelUpModal() {
                 className="bg-gray-50 rounded-lg p-4 mb-6"
               >
                 <p className="text-gray-700 italic text-center">
-                  "{levelData.quote}"
+                  &quot;{levelData.quote}&quot;
                 </p>
               </motion.div>
             )}

@@ -1013,7 +1013,7 @@ export default function ProfilePage() {
                     <div className="text-center py-12">
                       <Users className="w-16 h-16 text-gray-400 mx-auto mb-4" />
                       <p className="text-gray-400 text-lg">Henüz arkadaş eklenmemiş</p>
-                      <p className="text-gray-500 text-sm mt-2">Dashboard'dan arkadaş arayabilirsin!</p>
+                      <p className="text-gray-500 text-sm mt-2">Dashboard&apos;dan arkadaş arayabilirsin!</p>
                     </div>
                   ) : (
                     <div className="grid md:grid-cols-2 gap-4">

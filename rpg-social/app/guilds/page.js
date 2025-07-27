@@ -298,7 +298,7 @@ export default function GuildsPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-4 flex items-center justify-center">
             <Shield className="w-12 h-12 md:w-16 md:h-16 text-blue-400 mr-4" />
-            Guild'lar
+            Guild&apos;lar
           </h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             Güçlü ittifaklar kur, birlikte maceralara atıl ve efsanevi başarılar elde et!
@@ -363,7 +363,7 @@ export default function GuildsPage() {
                   : 'bg-slate-100/70 text-slate-600 hover:text-slate-800'
               }`}
             >
-              Guild'larım ({myGuilds.length})
+              Guild&apos;larım ({myGuilds.length})
             </button>
           </div>
 
@@ -600,7 +600,7 @@ export default function GuildsPage() {
                 onClick={() => setShowCreateModal(true)}
                 className="rpg-button"
               >
-                Kendi Guild'ini Oluştur
+                Kendi Guild&apos;ini Oluştur
               </button>
             )}
           </motion.div>
@@ -676,7 +676,7 @@ export default function GuildsPage() {
                     className="flex-1 rpg-button"
                   >
                     <UserPlus className="w-5 h-5 mr-2" />
-                    Guild'e Katıl
+                    Guild&apos;e Katıl
                   </button>
                 ) : (
                   <>
@@ -685,7 +685,7 @@ export default function GuildsPage() {
                       className="flex-1 rpg-button"
                     >
                       <Shield className="w-5 h-5 mr-2" />
-                      Guild'e Git
+                      Guild&apos;e Git
                     </button>
                     <button className="flex-1 rpg-button-secondary">
                       <MessageCircle className="w-5 h-5 mr-2" />

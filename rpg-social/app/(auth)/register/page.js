@@ -371,7 +371,7 @@ export default function RegisterPage() {
                       />
                       <span className="ml-2 text-sm text-gray-700">
                         <Link href="/terms" className="text-blue-600 hover:text-blue-700">Kullanım Şartları</Link> ve{' '}
-                        <Link href="/privacy" className="text-blue-600 hover:text-blue-700">Gizlilik Politikası</Link>'nı 
+                        <Link href="/privacy" className="text-blue-600 hover:text-blue-700">Gizlilik Politikası</Link>&apos;nı 
                         kabul ediyorum
                       </span>
                     </label>

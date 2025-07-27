@@ -738,7 +738,7 @@ export default function MapPage() {
                         whileTap={{ scale: 0.98 }}
                       >
                         <Crown className="w-5 h-5 inline mr-2" />
-                        Dashboard'a Dön
+                        Dashboard&apos;a Dön
                       </motion.button>
                     )}
                     

@@ -181,8 +181,7 @@ const guildSchema = new mongoose.Schema({
   toJSON: { virtuals: true }
 });
 
-// Indexes
-guildSchema.index({ name: 1 });
+// Indexes (name field already has unique: true, no need for separate index)
 guildSchema.index({ type: 1 });
 guildSchema.index({ 'settings.isPublic': 1 });
 guildSchema.index({ 'stats.level': -1 });

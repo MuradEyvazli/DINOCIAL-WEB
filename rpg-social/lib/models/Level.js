@@ -87,8 +87,7 @@ const levelSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Indexes for performance
-levelSchema.index({ level: 1 });
+// Indexes for performance (level field already has unique: true, no need for separate index)
 levelSchema.index({ xpRequired: 1 });
 levelSchema.index({ tier: 1 });
 levelSchema.index({ isActive: 1 });

@@ -1,0 +1,56 @@
+services:
+  # Web Service - Next.js Application with Socket.IO
+  - type: web
+    name: rpg-social
+    runtime: node
+    plan: starter # You can upgrade to standard for better performance
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false # You'll need to add this in Render dashboard
+      - key: JWT_SECRET
+        generateValue: true # Render will generate a secure random value
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: NEXTAUTH_URL
+        fromService:
+          type: web
+          name: rpg-social
+          property: url
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false # Add in Render dashboard
+      - key: CLOUDINARY_API_KEY
+        sync: false # Add in Render dashboard
+      - key: CLOUDINARY_API_SECRET
+        sync: false # Add in Render dashboard
+      - key: NEXUS_MASTER_KEY
+        generateValue: true
+      - key: NEXUS_QUANTUM_SALT
+        generateValue: true
+      - key: NEXUS_BIOMETRIC_SECRET
+        generateValue: true
+      # Email configuration (optional)
+      - key: EMAIL_FROM
+        value: noreply@rpgsocial.com
+      - key: EMAIL_SERVER_HOST
+        value: smtp.gmail.com
+      - key: EMAIL_SERVER_PORT
+        value: "587"
+      - key: EMAIL_SERVER_USER
+        sync: false # Add in Render dashboard if needed
+      - key: EMAIL_SERVER_PASSWORD
+        sync: false # Add in Render dashboard if needed
+    
+    # Health check for monitoring
+    healthCheckPath: /api/nexus/realtime
+    
+    # Auto-deploy from GitHub
+    autoDeploy: true # Set to true if you want automatic deploys from GitHub
+    
+    # Build and runtime settings
+    buildFilter:
+      paths:
+        - rpg-social/**

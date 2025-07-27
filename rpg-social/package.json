@@ -6,12 +6,18 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:init": "node scripts/initializeDatabase.js",
+    "db:seed": "node scripts/seedLevels.js",
+    "test:build": "npm run lint && npm run build",
+    "clean": "rm -rf .next node_modules",
+    "reinstall": "npm run clean && npm install"
   },
   "dependencies": {
     "@react-three/drei": "^10.4.4",
     "@react-three/fiber": "^9.2.0",
     "@reduxjs/toolkit": "^2.8.2",
+    "axios": "^1.6.5",
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.6.1",
     "framer-motion": "^12.16.0",
